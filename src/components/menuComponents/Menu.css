@@ -1,0 +1,30 @@
+.wr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logos img{
+    margin-right: 10vw;
+}
+.mmm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.mdc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 760px){
+    .wr{
+        width: 100%;
+        text-align: center;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

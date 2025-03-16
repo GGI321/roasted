@@ -1,0 +1,8 @@
+.bg{
+    position: relative;
+    height: 120vh;
+}
+iframe{
+    width: 80vw;
+    height: clamp(200px, 80vh, 100vh);
+}

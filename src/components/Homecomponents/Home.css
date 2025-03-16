@@ -1,0 +1,53 @@
+
+
+.myhero{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.myherowriteup{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.myherowriteup h1, .myherowriteup p{
+    color: transparent;
+    background-image: url("../pics/textBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+   
+
+}
+.myherowriteup h1{
+    font-size: clamp(0.6rem, 4.5vw, 5rem);
+}
+.myherowriteup p{
+    font-size: clamp(0.5rem, 2vw, 3.5rem);
+}
+.fast{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.fstImg1, .fstImg2{
+    aspect-ratio: 1/1;
+    width: 180px;
+    
+}
+.roww{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roww img{
+    width: 60px;
+    border-radius: 50%;
+}
+.myrowws{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,16 @@
+.utImg{
+margin: 3px;
+width: 300px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.footer{
+    background-color: #474747;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.we-container-ex{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.we-absolute{
+    position: absolute;
+    color: #fff;
+    background-color: #474747;
+    width: 14rem;
+    height: 10rem;
+    padding: 10px;
+    border: 2px solid #aaa;
+    border-radius: 5%;
+    top: 30%;
+    right: 0;
+}

@@ -1,0 +1,47 @@
+.DT, .NP{
+    width: clamp(450px, 50vw, 70rem);
+    display: flex;
+    gap: 5vw;
+    height: 50px;
+}
+.DT input, .NP input{
+    width: 40%;
+    height: 100%;
+}
+.MC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.NG{
+    width: clamp(450px, 50vw, 70rem);
+    display: flex;
+    padding-top: 7vh;
+}
+.NG input{
+    
+    width: 90%;
+    height: 10vh;
+}
+.ALL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.BB{
+    width: clamp(250px, 50vw, 70rem);
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BB button{
+    width: 90%;
+    height: 60px;
+    border-radius: 50px;
+}

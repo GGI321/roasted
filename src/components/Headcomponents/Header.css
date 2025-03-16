@@ -1,0 +1,6 @@
+.navbar{
+    background-color: transparent !important;
+}
+li Link:focus{
+    border-bottom: 3px solid yellow;
+}
