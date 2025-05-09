@@ -13,28 +13,39 @@ import Wwe from './weprovidecomponent/Wwe'
 import chef from "../pics/chef.png"
 import food1 from "../pics/food1.png"
 import food2 from "../pics/food2.png"
-
+import { Link } from 'react-router-dom'
 
 function Home() {
-    const herostyle= { filter: "brightness(0.6)" }
+    const herostyle = { filter: "brightness(0.6)" }
     return (
 
-        
+
         <div>
-            
+
             <div className="heropage container">
                 <section className="hero container">
                     <div className="container myhero">
                         <img src={hero} alt="Hero image" className='img-fluid heroimage' style={herostyle} />
                         <div className="container ">
-                          <div className="container myherowriteup">
-                          <h1>BEST FOOD FOR <br /> YOUR TASTE</h1>
-                            <p>Discover delectable cuisine and unforgettable moments <br /> in our welcoming, culinary haven.</p>
-                            <div className="container d-flex gap-3">
-                                <button type="button" class="btn btn-outline-warning btn-sm">Book A Table</button>
-                                <button type="button" class="btn btn-outline-warning btn-sm">Explore Menu</button>
+                            <div className="container myherowriteup">
+                                <h1>BEST FOOD FOR <br /> YOUR TASTE</h1>
+                                <p>Discover delectable cuisine and unforgettable moments <br /> in our welcoming, culinary haven.</p>
+                                <div className="container d-flex gap-3">
+                                    <button type="button" class="btn btn-outline-warning btn-sm"> <Link
+                                        to="/Book"
+                                        className="btn btn-warning px-4 py-2 fw-bold btn-sm"
+                                    >
+                                        Book A Table
+                                    </Link></button>
+                                    <button type="button" class="btn btn-outline-warning btn-sm">    <Link 
+                                                      to="/Menu" 
+                                                      className="nav-link px-3 py-2 rounded" 
+                                                      activeClassName="active"
+                                                    >
+                                                      Menu
+                                                    </Link></button>
+                                </div>
                             </div>
-                          </div>
                         </div>
 
                     </div>
@@ -51,7 +62,7 @@ function Home() {
                                     <div className="container d-flex justify-content-center align-items-center"> <button type="button" class="btn btn-outline-warning my-2 text-center">Desserts</button></div>
 
                                 </div>
-                            </div> 
+                            </div>
 
                             <div className="col-sm-6 col-md-4 col-lg-3  mb-2" data-aos='fade-up'>
                                 <div className="card">
@@ -135,10 +146,10 @@ function Home() {
                         <div className="row justify-content-center align-items-center">
                             <div className="col-md-6 " >
                                 <div className=" fast ">
-                                    <img src={chef} alt="" className='img-fluid'  data-aos="fade-right"/>
+                                    <img src={chef} alt="" className='img-fluid' data-aos="fade-right" />
                                     <div className="fast2 py-2">
                                         <img src={food1} alt="" className='img-fluid fstImg1 mb-2' data-aos="fade-right" />
-                                        <img src={food2} alt="" className='img-fluid fstImg2'  data-aos="fade-right"/>
+                                        <img src={food2} alt="" className='img-fluid fstImg2' data-aos="fade-right" />
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +165,7 @@ function Home() {
                     </div>
                 </section>
                 <section className="container whatOurCustomersay ">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#474747" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,197.3C672,192,768,128,864,101.3C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#474747" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,197.3C672,192,768,128,864,101.3C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
                     <h2>WHAT OUR CUSTOMERS SAY</h2>
                     <div className="row">
                         <div className="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up">
@@ -238,11 +249,11 @@ function Home() {
                     <div className="ourblogs">
                         <div className="container-fluid myblog">
 
-                           
+
                         </div>
                     </div>
                 </section>
-                
+
 
             </div>
         </div>
