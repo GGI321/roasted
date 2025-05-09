@@ -1,8 +1,8 @@
 .bg{
     position: relative;
-    height: 120vh;
+    height: auto;
 }
 iframe{
     width: 80vw;
-    height: clamp(200px, 80vh, 100vh);
+    height: auto;
 }

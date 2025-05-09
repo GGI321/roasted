@@ -10,7 +10,7 @@ function Customer() {
         <div>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 py-5">
                         <div className="card">
                             <div className="card-body">
                                 <div className="card-title">Best Restaurant</div>
@@ -27,7 +27,7 @@ function Customer() {
                         </div>
                     </div>
 
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 py-5">
                         <div className="card">
                             <div className="card-body">
                                 <div className="card-title">Best Restaurant</div>
@@ -44,7 +44,7 @@ function Customer() {
                         </div>
                     </div>
 
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 py-5">
                         <div className="card">
                             <div className="card-body">
                                 <div className="card-title">Best Restaurant</div>

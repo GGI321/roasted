@@ -16,7 +16,7 @@ import food2 from "../pics/food2.png"
 
 
 function Home() {
-    const herostyle= { filter: "brightness(0.6)"}
+    const herostyle= { filter: "brightness(0.6)" }
     return (
 
         
@@ -25,14 +25,14 @@ function Home() {
             <div className="heropage container">
                 <section className="hero container">
                     <div className="container myhero">
-                        <img src={hero} alt="Hero image" className='img-fluid' style={herostyle} />
+                        <img src={hero} alt="Hero image" className='img-fluid heroimage' style={herostyle} />
                         <div className="container ">
                           <div className="container myherowriteup">
                           <h1>BEST FOOD FOR <br /> YOUR TASTE</h1>
                             <p>Discover delectable cuisine and unforgettable moments <br /> in our welcoming, culinary haven.</p>
                             <div className="container d-flex gap-3">
                                 <button type="button" class="btn btn-outline-warning btn-sm">Book A Table</button>
-                                <button type="button" class="btn btn-outline-success btn-sm">Explore Menu</button>
+                                <button type="button" class="btn btn-outline-warning btn-sm">Explore Menu</button>
                             </div>
                           </div>
                         </div>
@@ -43,7 +43,7 @@ function Home() {
                     <h1 className='text-center'>BROWSE OUR MENU</h1>
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-6 col-md-4 col-lg-3 my-2 " data-aos='fade-up'>
+                            <div className="col-sm-6 col-md-4 col-lg-3 my-2 mb-2 " data-aos='fade-up'>
                                 <div className="card ">
                                     <div className="card-body d-flex justify-content-center align-items-center"><img src={card1} alt="" className='img-fluid' /></div>
                                     <div className="card-title text-center"><h4>Desserts</h4></div>
@@ -53,7 +53,7 @@ function Home() {
                                 </div>
                             </div> 
 
-                            <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-up'>
+                            <div className="col-sm-6 col-md-4 col-lg-3  mb-2" data-aos='fade-up'>
                                 <div className="card">
                                     <div className="card-body d-flex justify-content-center align-items-center"><img src={card2} alt="" className='img-fluid' /></div>
                                     <div className="card-title text-center"><h4>Dishes</h4></div>
@@ -63,7 +63,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-up'>
+                            <div className="col-sm-6 col-md-4 col-lg-3  mb-2" data-aos='fade-up'>
                                 <div className="card">
                                     <div className="card-body d-flex justify-content-center align-items-center"><img src={card3} alt="" className='img-fluid' /></div>
                                     <div className="card-title text-center"><h4>Coffee</h4></div>
@@ -73,7 +73,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-up'>
+                            <div className="col-sm-6 col-md-4 col-lg-3  mb-2" data-aos='fade-up'>
                                 <div className="card">
                                     <div className="card-body d-flex justify-content-center align-items-center"><img src={card4} alt="" className='img-fluid' /></div>
                                     <div className="card-title text-center"><h4>Drinks</h4></div>
@@ -93,7 +93,7 @@ function Home() {
                     <div className="row ">
                         <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-down'>
                             <div className="card">
-                                <div className="card-body"><img src={wcard1} alt="" className='img-fluid' />
+                                <div className="card-body"><img src={wcard1} alt="" className=' card-img' />
                                     <div className="card-title">Birthdays</div>
                                     <div className="card-text">In the new era of technology we look in the future with certainty for life.</div>
                                 </div>
@@ -102,7 +102,7 @@ function Home() {
 
                         <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-down'>
                             <div className="card">
-                                <div className="card-body"><img src={wcard2} alt="" className='img-fluid' />
+                                <div className="card-body"><img src={wcard2} alt="" className='card-img' />
                                     <div className="card-title">Events</div>
                                     <div className="card-text">
                                         In the new era of technology we look in the future with certainty for life.</div>
@@ -112,7 +112,7 @@ function Home() {
 
                         <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-down'>
                             <div className="card">
-                                <div className="card-body"><img src={wcard3} alt="" className='img-fluid' />
+                                <div className="card-body"><img src={wcard3} alt="" className='card-img' />
                                     <div className="card-title">Weddings</div>
                                     <div className="card-text">In the new era of technology we look in the future with certainty for life.</div>
                                 </div>
@@ -121,7 +121,7 @@ function Home() {
 
                         <div className="col-sm-6 col-md-4 col-lg-3" data-aos='fade-down'>
                             <div className="card">
-                                <div className="card-body"><img src={wcard4} alt="" className='img-fluid' />
+                                <div className="card-body"><img src={wcard4} alt="" className='card-img' />
                                     <div className="card-title">caterings</div>
                                     <div className="card-text">In the new era of technology we look in the future with certainty for life.</div>
                                 </div>

@@ -47,12 +47,12 @@ function About() {
                 </div>
             </div>
             <section className="info container" >
-                <div className="row ">
+                <div className="row mb-4">
                     <div className="col-md-6" >
                         <h1>A little information for our valuable guest</h1>
                         <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
                         <div className="row ">
-                            <div className="col-sm-6" data-aos="flip-left">
+                            <div className="col-sm-6 py-3" data-aos="flip-left">
                                 <div className="card mb-2">
                                     <div className="card-body">
                                         <div className="card-title"><h1>3+</h1></div>
@@ -61,7 +61,7 @@ function About() {
                                 </div>
                             </div>
 
-                            <div className="col-sm-6" data-aos="flip-left">
+                            <div className="col-sm-6 py-3" data-aos="flip-left">
                                 <div className="card mb-2">
                                     <div className="card-body">
                                         <div className="card-title"><h1>1995</h1></div>
@@ -70,7 +70,7 @@ function About() {
                                 </div>
                             </div>
 
-                            <div className="col-sm-6 mb-2" data-aos="flip-left">
+                            <div className="col-sm-6 mb-2 py-3" data-aos="flip-left">
                                 <div className="card">
                                     <div className="card-body">
                                         <div className="card-title"><h1>100+ </h1></div>
@@ -79,7 +79,7 @@ function About() {
                                 </div>
                             </div>
 
-                            <div className="col-sm-6 mb-2" data-aos="flip-left" >
+                            <div className="col-sm-6 mb-2 py-3" data-aos="flip-left" >
                                 <div className="card">
                                     <div className="card-body">
                                         <div className="card-title"><h1>80%</h1></div>

@@ -24,7 +24,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p1} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p1} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -34,7 +34,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p2} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p2} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -44,7 +44,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p3} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p3} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -54,7 +54,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p4} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p4} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -64,7 +64,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p5} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p5} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -74,7 +74,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p6} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p6} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -84,7 +84,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p7} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p7} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -94,7 +94,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p8} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p8} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -104,7 +104,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p9} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p9} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -114,7 +114,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p10} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p10} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -124,7 +124,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p11} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p11} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>
@@ -134,7 +134,7 @@ function Pages() {
                 <div className="col-sm-6 col-md-3"  data-aos="zoom-in-down">
                     <div className="card mb-2">
                         <div className="card-body">
-                            <img src={p11} alt="" className='img-fluid'  data-aos="zoom-in-down"/>
+                            <img src={p11} alt="" className='card-img'  data-aos="zoom-in-down"/>
                             <div className="card-title text-danger text-center">20/03/2025</div>
                             <div className="card-text text-center"><p>Exclusive baking lessons from the pastry king</p></div>
                         </div>

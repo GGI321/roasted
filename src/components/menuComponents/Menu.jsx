@@ -36,9 +36,9 @@ function Menu() {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card mb-2">
+                            <div className="card mb-3">
                                 <div className="card-body">
-                                    <img src={m1} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m1} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -47,9 +47,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m2} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m2} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -58,9 +58,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m3} alt="" className='img-fluid' data-aos="fade-right" />
+                                    <img src={m3} alt="" className='card-img ' data-aos="fade-right" />
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -69,9 +69,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m4} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m4} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -80,9 +80,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m5} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m5} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -91,9 +91,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m6} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m6} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -102,9 +102,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m7} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m7} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
@@ -113,9 +113,9 @@ function Menu() {
                         </div>
 
                         <div className="col-sm-6 col-md-3" data-aos="fade-left">
-                            <div className="card">
+                            <div className="card  mb-3">
                                 <div className="card-body">
-                                    <img src={m8} alt="" className='img-fluid' data-aos="fade-right"/>
+                                    <img src={m8} alt="" className='card-img ' data-aos="fade-right"/>
                                     <div className="card-title text-danger text-center"><b>$9.99</b></div>
                                     <div className="card-title text-center text-dark"><b>Fried eggs</b></div>
                                     <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
